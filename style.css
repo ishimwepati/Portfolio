@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap");
 
+
 @media only screen and (max-device-width: 375px) {
   div#wrapper {
     width: 400px;
@@ -23,14 +24,14 @@ div {
 .heading_up {
   color: #172b4d;
   text-align: center;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 40px;
 }
 
 .heading_down {
   color: #36b37e;
   text-align: center;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 40px;
 }
 
@@ -42,7 +43,7 @@ div {
 
 p {
   text-align: center;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-weight: 400;
   font-size: 20px;
   margin: 8%;
