@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap");
+@media only screen and (max-device-width: 375px) {
+    div#wrapper {
+        width: 400px;
+        }
+    }
+div {
+    width: 35px;
+    height: 2px;
+    background-color: #172B43;
+    margin: 4px 0;
+    border-radius: 30%;
+    border: 1px solid #172B43;
+  }
+.menu_icon {
+    padding-left: 85%;
+    padding-right: 30%;
+}
+
+.heading_up {
+    color: #172B4D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+}
+.heading_down {
+    color: #36B37E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+}
+
+.main_section {
+    background-image: url("img/header-illsutration-mobile@2x.png");
+    background-size: 100% auto;
+    background-position: center center;
+}
+
+p {
+    text-align: center;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 8%;
+}
+
+.social_links {
+   margin-left:80px;
+   margin-right: 80px;
+   color:#505F79
+}
+.icon{
+    margin: 7px;
+}
