@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap");
+
+@media only screen and (max-device-width: 375px) {
+  div#wrapper {
+    width: 400px;
+  }
+}
+
+.box-shadow-menu {
+  position: relative;
+  padding-left: 1.25em;
+}
+
+.box-shadow-menu::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.25em;
+  width: 1em;
+  height: 0.15em;
+  background: #172b43;
+  box-shadow:
+    0 0.25em 0 0 #172b43,
+    0 0.5em 0 0 #172b43;
+}
+
+.menu_icon {
+  flex: auto;
+  padding-left: 85%;
+  padding-right: 30%;
+  margin-top: 5%;
+}
+
+.upper_word {
+  color: #172b4d;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-size: 40px;
+}
+
+.down_word {
+  display: flex;
+  color: #36b37e;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-size: 40px;
+}
+
+.main_section {
+  background-image: url("img/header-illsutration-mobile@2x.png");
+  background-size: 100% auto;
+  background-position: center center;
+}
+
+p {
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 8%;
+  color: #172b4d;
+}
+
+.social_links {
+  margin-left: 30px;
+  margin-right: 30px;
+  color: #505f79;
+}
+
+li {
+  display: inline-block;
+}
+
+.icon {
+  margin: 7px;
+}
