@@ -96,7 +96,8 @@ li {
   border-color: #EBF0EE;
   border-width: 50px;
   border-radius: 8px;
-  border: 1px solid #EBF0EE;  
+  border: 1px solid #C1C7D0; 
+  margin-top: 10%; 
 }
 .grid-item {
  border-radius: 8px;
@@ -203,3 +204,227 @@ h4{
   height: 48px; 
   } 
 
+/* About Section */
+.First-image img{
+  float: right;
+}
+.grid-image{
+  max-width: 327px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr ;
+  border-width: 50px;
+  border-radius: 8px;
+
+}
+
+.button-resume {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  background-color: #36B37F;
+  border-radius: 2px;  
+  width: 150px; 
+  height: 48px;
+  color: whitesmoke;
+  font-size: 17px;
+  margin-top: 7%;
+}
+.grid-container-about h1{
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+.about_text {
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #172b4d;
+}
+.grid-container-ab{
+  max-width: 327px;
+  height: 316px;
+  width: 327px;
+  margin: auto;
+  margin-top: 15%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5fr 2fr 1fr 2fr ;
+  background-color:#EBF0EE;
+  border-color: #EBF0EE;
+  border-width: 50px;
+  border-radius: 8px;
+  border: 1px solid #C1C7D0;  
+}
+.grid-language {
+  border-radius: 8px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 10%;
+  width: 17.53px;
+  height: 20.39px;
+}
+.title h3{
+color: #344563;
+margin-top: 2%;
+}
+.grid-about {
+  border-radius: 8px;
+  
+ }
+
+.flex-container-about{
+  display: flex;
+  gap: 10px;
+  background-color: #EBF0EE;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+.flex-about {
+  flex: 1;
+  border-radius: 8px;
+  color: #3A4A42;
+  
+}
+.flex-aboutjs{
+  background-color:#ffffff;
+  flex: 1;
+  width: 20px; 
+  height: 32px;
+  border-radius: 8px;
+  font-family: Inter;
+  font-size: 10px;
+  text-align: center;
+  color: #36B37E;
+  line-height: 16px;
+  margin-left: 7%;
+}
+.flex-about1{
+  background-color:#ffffff;
+  flex: 2;
+  width: 90px; 
+  height: 32px;
+  border-radius: 8px;
+  font-family: Inter;
+  font-size: 10px;
+  text-align: center;
+  color: #36B37E;
+  line-height: 16px;
+  margin-left: 7%;
+}
+.flex-about2 {
+  background-color: #ffffff;
+  height: 32px;
+  font-family: Inter;
+  font-size: 10px;
+  text-align: center;
+  color: #36B37E;
+  line-height: 16px;
+}
+.flex-about3{
+  background-color:#ffffff;
+  height: 32px;
+  font-family: Inter;
+  font-size: 10px;
+  text-align: center;
+  color: #36B37E;
+  line-height: 16px;
+  margin-right: 3%;
+  flex: 1;
+  
+}
+.flex-about4{
+  background-color:#ffffff;
+  height: 32px;
+  font-family: Inter;
+  font-size: 10px;
+  text-align: center;
+  color: #36B37E;
+  line-height: 16px;
+  margin-right: 5%;
+}
+.flex-aboutCapy{
+  background-color:#ffffff;
+  flex: 0.3;
+  height: 32px;
+  border-radius: 8px;
+  font-family: Inter;
+  font-size: 10px;
+  text-align: center;
+  color: #36B37E;
+  line-height: 16px;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+.flex-about6 {
+  flex: 0.4;
+  background-color: #ffffff;
+  height: 32px;
+  font-family: Inter;
+  font-size: 10px;
+  text-align: center;
+  color: #36B37E;
+  line-height: 16px;
+  margin-top: 2%;
+}
+.flex-aboutdb{
+  background-color:#ffffff;
+  flex: 1.7;
+  width: 20px; 
+  height: 32px;
+  border-radius: 8px;
+  font-family: Inter;
+  font-size: 10px;
+  text-align: center;
+  color: #36B37E;
+  line-height: 16px;
+  margin-left: 7%;
+}
+.flex-aboutvs{
+    background-color: #ffffff;
+    height: 32px;
+    font-family: Inter;
+    font-size: 10px;
+    text-align: center;
+    color: #36B37E;
+    line-height: 16px;
+    flex: 0.9;
+    margin-right: 10%;
+  }
+  .flex-aboutapi {
+    flex: 0.3;
+    background-color: #ffffff;
+    height: 32px;
+    font-family: Inter;
+    font-size: 10px;
+    text-align: center;
+    color: #36B37E;
+    line-height: 16px;
+    margin-top: 2%;
+    margin-right: 11%;
+  }
+  .flex-aboutweb {
+    flex: 0.5;
+    background-color: #ffffff;
+    height: 32px;
+    font-family: Inter;
+    font-size: 10px;
+    text-align: center;
+    color: #36B37E;
+    line-height: 16px;
+    margin-top: 2%;
+  }
+  .flex-aboutcli{
+    background-color:#ffffff;
+    flex: 0.3;
+    height: 32px;
+    border-radius: 8px;
+    font-family: Inter;
+    font-size: 10px;
+    text-align: center;
+    color: #36B37E;
+    line-height: 16px;
+    margin-left: 7%;
+    margin-top: 2%;
+  }
