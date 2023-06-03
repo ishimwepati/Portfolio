@@ -10,7 +10,8 @@
   position: relative;
   padding-left: 1.25em;
 }
-.box-shadow-menu:before {
+
+.box-shadow-menu::before {
   content: "";
   position: absolute;
   left: 0;
@@ -18,10 +19,11 @@
   width: 1em;
   height: 0.15em;
   background: #172b43;
-  box-shadow: 
+  box-shadow:
     0 0.25em 0 0 #172b43,
     0 0.5em 0 0 #172b43;
 }
+
 .menu_icon {
   flex: auto;
   padding-left: 85%;
