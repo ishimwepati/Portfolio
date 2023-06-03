@@ -74,3 +74,132 @@ li {
 .icon {
   margin: 7px;
 }
+
+.IndicatorIndi{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15%;
+  margin-top: 5%;
+  width: 15%;
+}
+
+/* GRID =========================== */
+.grid-container{
+  max-width: 327px;
+  height: 474px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5fr 2fr 1fr 2fr ;
+  background-color:#EBF0EE;
+  border-color: #EBF0EE;
+  border-width: 50px;
+  border-radius: 8px;
+  border: 1px solid #EBF0EE;  
+}
+.grid-item {
+ border-radius: 8px;
+ 
+}
+.main {
+  background-color: #FFFFFF;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+h3{
+  font-family: Inter;
+  text-align: center;
+  font-size: 24px;
+}
+
+/* FLEXBOX ======================*/ 
+.flex-container{
+  display: flex;
+  gap: 10px;
+  background-color: #FFFFFF;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  
+}
+.flex-item {
+  flex: 1;
+  border-radius: 8px;
+  color: #3A4A42;
+  
+}
+.flex-item1{
+  background-color:#EBF0EE;
+  flex: 2;
+  width: 90px; 
+  height: 32px;
+  border-radius: 8px;
+  font-family: Inter;
+  font-size: 10px;
+  text-align: center;
+  color: #3A4A42;
+  line-height: 16px;
+  border-bottom-left-radius: 4%;
+  
+  
+}
+.flex-item2 {
+  background-color:#EBF0EE;
+  height: 32px;
+  font-family: Inter;
+  font-size: 10px;
+  text-align: center;
+  color: #3A4A42;
+  line-height: 16px;
+}
+.flex-item3{
+  background-color:#EBF0EE;
+  height: 32px;
+  font-family: Inter;
+  font-size: 10px;
+  text-align: center;
+  color: #3A4A42;
+  line-height: 16px;
+  
+}
+.flex-item4{
+  background-color:#EBF0EE;
+  height: 32px;
+  font-family: Inter;
+  font-size: 10px;
+  text-align: center;
+  color: #3A4A42;
+  line-height: 16px;
+  border-bottom-right-radius: 4%;
+  
+}
+h4{
+  margin-top: 8px;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  background-color: #36B37F;
+  border-radius: 2px;  
+  width: 122px; 
+  height: 48px;
+  color: whitesmoke;
+  font-size: 17px;
+}
+.last {  
+  background-color: #FFFFFF;
+  display: grid;  
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
+  }  
+
+  button {  
+  background-color: lightblue;    
+  margin: auto;  
+  width: 122px;  
+  height: 48px; 
+  } 
+
