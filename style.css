@@ -8,7 +8,7 @@
 
 div {
   width: 16px;
-  height: 0px;
+  height: 0;
   background-color: #172b43;
   margin: 4px 0;
   border-radius: 30%;
@@ -48,18 +48,19 @@ p {
   font-weight: 400;
   font-size: 20px;
   margin: 8%;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .social_links {
   margin-left: 40px;
   margin-right: 40px;
   color: #505f79;
-  
 }
+
 li {
-    display: inline-block;
+  display: inline-block;
 }
+
 .icon {
   margin: 7px;
 }
