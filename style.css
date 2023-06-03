@@ -92,7 +92,7 @@ li {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 5fr 2fr 1fr 2fr;
-  background-color: #ebf0ee;
+  background-color: #fff; /* ------------------- */
   border-color: #ebf0ee;
   border-width: 50px;
   border-radius: 8px;
@@ -102,6 +102,10 @@ li {
 
 .grid-item {
   border-radius: 8px;
+}
+
+.one {
+  background-color: #ebf0ee;
 }
 
 .main {
@@ -120,7 +124,7 @@ h3 {
 .flex-container {
   display: flex;
   gap: 10px;
-  background-color: #fff;
+  background-color: #fff; /* ------------------- */
   border-bottom-left-radius: 0%;
   border-bottom-right-radius: 0%;
 }
@@ -133,7 +137,7 @@ h3 {
 
 .flex-item1 {
   background-color: #ebf0ee;
-  flex: 2;
+  flex: 1.5;
   width: 90px;
   height: 32px;
   border-radius: 8px;
@@ -142,7 +146,9 @@ h3 {
   text-align: center;
   color: #3a4a42;
   line-height: 16px;
+  border-top-left-radius: 0%;
   border-bottom-left-radius: 4%;
+  margin-left: -14%;
 }
 
 .flex-item2 {
@@ -174,6 +180,7 @@ h3 {
   color: #3a4a42;
   line-height: 16px;
   border-bottom-right-radius: 4%;
+  border-top-right-radius: 1%;
 }
 
 h4 {
@@ -181,7 +188,7 @@ h4 {
 }
 
 .button1 {
-  color: black;
+  color: #fff;
   border: 2px solid #4caf50;
   background-color: #36b37f;
   border-radius: 2px;
@@ -220,7 +227,7 @@ button {
 }
 
 .button-resume {
-  color: black;
+  color: #fff;
   border: 2px solid #4caf50;
   background-color: #36b37f;
   border-radius: 2px;
@@ -230,9 +237,28 @@ button {
   margin-top: 7%;
 }
 
+.button-resume:active {
+  background-color: #008000;
+}
+
+.button1:active {
+  background-color: #008000;
+}
+
+.resume {
+  display: grid;
+  margin-left: 60%;
+}
+
 .grid-container-about h1 {
-  margin-left: 20%;
+  margin-left: 0%;
   margin-bottom: 5%;
+}
+
+.grid-container-about {
+  background-image: url(icon/illustration\ 1-\ about\ me-mobile.svg), url(icon/illustration\ 2-about\ me\ mobile.svg);
+  background-position: right top, left bottom;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .about_text {
@@ -302,7 +328,7 @@ button {
   text-align: center;
   color: #36b37e;
   line-height: 16px;
-  margin-left: 7%;
+  margin-left: -7%;
 }
 
 .flex-about1 {
@@ -317,6 +343,7 @@ button {
   color: #36b37e;
   line-height: 16px;
   margin-left: 7%;
+  margin-left: -10%;
 }
 
 .flex-about2 {
@@ -362,8 +389,8 @@ button {
   text-align: center;
   color: #36b37e;
   line-height: 16px;
-  margin-left: 20%;
-  margin-top: 2%;
+  margin-left: 12%;
+  margin-top: -7%;
 }
 
 .flex-about6 {
@@ -375,7 +402,7 @@ button {
   text-align: center;
   color: #36b37e;
   line-height: 16px;
-  margin-top: 2%;
+  margin-top: -7%;
 }
 
 .flex-aboutdb {
@@ -390,6 +417,7 @@ button {
   color: #36b37e;
   line-height: 16px;
   margin-left: 7%;
+  margin-left: -9%;
 }
 
 .flex-aboutvs {
@@ -413,8 +441,8 @@ button {
   text-align: center;
   color: #36b37e;
   line-height: 16px;
-  margin-top: 2%;
   margin-right: 11%;
+  margin-top: -7%;
 }
 
 .flex-aboutweb {
@@ -426,7 +454,7 @@ button {
   text-align: center;
   color: #36b37e;
   line-height: 16px;
-  margin-top: 2%;
+  margin-top: -7%;
 }
 
 .flex-aboutcli {
@@ -439,6 +467,6 @@ button {
   text-align: center;
   color: #36b37e;
   line-height: 16px;
-  margin-left: 7%;
-  margin-top: 2%;
+  margin-top: -7%;
+  margin-left: -9%;
 }
