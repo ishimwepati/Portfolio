@@ -7,8 +7,8 @@
 }
 
 div {
-  width: 35px;
-  height: 2px;
+  width: 16px;
+  height: 0px;
   background-color: #172b43;
   margin: 4px 0;
   border-radius: 30%;
@@ -16,6 +16,7 @@ div {
 }
 
 .menu_icon {
+  flex: auto;
   padding-left: 85%;
   padding-right: 30%;
 }
@@ -28,6 +29,7 @@ div {
 }
 
 .heading_down {
+  display: flex;
   color: #36b37e;
   text-align: center;
   font-family: Inter, sans-serif;
@@ -46,14 +48,18 @@ p {
   font-weight: 400;
   font-size: 20px;
   margin: 8%;
+  color: #172B4D;
 }
 
 .social_links {
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
   color: #505f79;
+  
 }
-
+li {
+    display: inline-block;
+}
 .icon {
   margin: 7px;
 }

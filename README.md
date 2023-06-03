@@ -65,6 +65,9 @@
 > - Added Linters
 > - Added HTML
 > - Added CSS
+> - Added Nav
+> - Added Toolbar
+> - Added Image Background
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
