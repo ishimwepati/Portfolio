@@ -39,7 +39,7 @@
 <!-- INTRO -->
 # 📖 Portfolio <a name="about-project"></a>
 
-> Here is a Portfolio project showcasing all my Abilities, Skills and Achievements.
+> Here is a Portfolio project showcasing all my Abilities, Skills and Achievements.it has many sections (Home, About Us, Work)
 
 ## 🛠 Built With <a name="built-with"></a>
 1. HTML
