@@ -470,3 +470,58 @@ button {
   margin-top: -7%;
   margin-left: -9%;
 }
+.flex-contact {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  gap: 20px;
+}
+
+.flex-name{
+  width: 300px;
+  height: 40px;
+  border-radius: 3px;
+  font-style: italic; 
+  font-family: Inter, sans-serif;
+  border: 1px solid #D0D9D4;
+  
+}
+.flex-email{
+  width: 300px;
+  height: 40px;
+  border-radius: 3px;
+  font-style: italic; 
+  font-family: Inter, sans-serif;
+  border: 1px solid #D0D9D4;
+  
+}
+.flex-message{
+  border-color: #36b37f;
+  width: 300px;
+  height: 114px;
+  border-radius: 3px;
+  font-family: Inter, sans-serif;
+}
+
+.flex-name:focus, .flex-email:focus, .flex-message:focus {
+  border: 3px solid #0995db;
+}
+.flex-button {
+  color: #fff;
+  border: 2px solid #4caf50;
+  background-color: #36b37f;
+  border-radius: 4px;
+  width: 120px;
+  height: 48px;
+  font-size: 17px;
+  margin-top: 1%;
+}
+#contact-us .social_links{
+  margin-left: 52px;
+}
+#contact-us {
+  background-image: url(img/Frame.png);
+  background-repeat: no-repeat;
+  background-position-y: 620px;
+  background-position-x: 290px;
+}
