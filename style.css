@@ -9,6 +9,7 @@
 .box-shadow-menu {
   position: relative;
   padding-left: 1.25em;
+  transform: rotate(90deg);
 }
 
 .box-shadow-menu::before {
@@ -36,6 +37,7 @@
   text-align: center;
   font-family: Inter, sans-serif;
   font-size: 40px;
+  transform: translate(42px, 18px);
 }
 
 .down_word {
@@ -224,6 +226,7 @@ button {
   grid-template-rows: 1fr;
   border-width: 50px;
   border-radius: 8px;
+  transform: scale(0.7);
 }
 
 .button-resume {
