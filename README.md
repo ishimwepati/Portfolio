@@ -9,7 +9,7 @@
 
 <!-- MAIN HEADING -->
 
-  <h3><b>My Portfolio</b></h3>
+  <h3><b>My Portfolio Mobile and Desktop Version</b></h3>
 
 </div>
 
