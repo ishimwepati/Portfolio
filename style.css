@@ -582,7 +582,7 @@ button {
     text-align: center;
     font-family: Inter, sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     color: #172b4d;
     margin-top: 3.5%;
     line-height: 1.6;
@@ -592,7 +592,7 @@ button {
     background-image: url("img/Header-llustration-desktop.png");
     background-position: center center;
     background-size: cover;
-    height: 900px;
+    height: 1100px;
   }
   .social_links {
     display: table;
@@ -603,6 +603,7 @@ button {
   
   li {
     display: inline-block;
+    font-weight: bold;
   }
   
   .icon {
@@ -644,7 +645,7 @@ background-color: #ffffff;
 margin: 10px;
 }
 .down{
-  margin-top: -1%;
+  margin-top: -0.5%;
 }
 
 .grid-container {
@@ -783,14 +784,14 @@ button {
   text-align: center;
   font-family: Inter, sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 20px;
   margin: 8%;
   margin-top: -1%;
   color: #172b4d;
   line-height: 1.6;
 }
 .grid-image {
-  max-width: 327px;
+  max-width: 250px;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -816,35 +817,35 @@ button {
 }
 .resume {
   display: grid;
-  margin-left: 60%;
+  margin-left: 35%;
 }
 .grid-container-about {
   background-image: url(img/illustration-about-me-2-desktop.png),url(img/illustration\ about\ me\ desktop.png) ;
   background-position: left bottom, right top;
   background-repeat: no-repeat, no-repeat;
   background-position-y: 190px, 30px;
-  background-position-x: 1px, -220px;
+  background-position-x: 1px, 100%;
 }
 .about-grid-cont{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 10px;
+  grid-row-gap: 5px;
 
 }
 .language{
-margin-left: 20%;
+margin-left: 40%;
 }
 .Frameworks{
-margin-left: 10%;
-margin-right: 10%;
+margin-left: 20%
 }
 .skills{
-margin-right: 20%;
+margin-right: 80%;
+
 }
 .grid-container-ab {
   max-width: 327px;
   height: 316px;
-  width: 327px;
+  width: 369px;
   margin-top: 5%;
   display: grid;
   grid-template-columns: 1fr;
@@ -1046,7 +1047,7 @@ margin-right: 20%;
   display: grid;
   grid-template-columns: 1fr 1.5fr; 
   margin-top: 6%;
-  padding-bottom: 22%;
+  padding-bottom: 17%;
 }
 .contact-us p{
   display: none;
@@ -1059,7 +1060,7 @@ margin-right: 20%;
   font-size: 25px;
   justify-content: center;
   margin-top: 10%;
-  margin-left: 20%;
+  margin-left: 35%;
   line-height: 143%;
   text-align: left;
 }
@@ -1067,7 +1068,7 @@ margin-right: 20%;
 .flex-contact {
   display: flex;
   flex-direction:column;
-  gap: 20px;
+  gap: 25px;
 }
 .flexname-desktop{
   display: grid;
@@ -1075,7 +1076,7 @@ margin-right: 20%;
   gap: 25px;
 }
 .flexname-desktop input{
-  width: 298px;
+  width: 87%;
   height: 40px;
   border-radius: 3px;
   font-style: italic; 
@@ -1084,7 +1085,7 @@ margin-right: 20%;
 }
 
 .flex-email{
-  width: 627px;
+  width: 94%;
   height: 40px;
   border-radius: 3px;
   font-style: italic; 
@@ -1094,7 +1095,7 @@ margin-right: 20%;
 }
 .flex-message{
   border-color: #36b37f;
-  width: 627px;
+  width: 94%;
   height: 114px;
   border-radius: 3px;
   font-family: Inter, sans-serif;
@@ -1119,7 +1120,7 @@ margin-right: 20%;
   background-position: right bottom, left bottom, left bottom;
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position-y: 25px, 340px, 300px;
-  background-position-x: 1030px, 250px, 0px;
+  background-position-x: 100%, 250px, 0px;
   background-size: 200px 550px, 130px 115px, 160px 261px;
 }
 hr {
