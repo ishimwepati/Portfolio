@@ -120,7 +120,7 @@ You can deploy this project using:
 
 👤 **Ishimwe Joseph**
 
-- GitHub: [@ishimwepati](https://https://github.com/ishimwepati)
+- GitHub: [@ishimwepati](https://github.com/ishimwepati)
 - Twitter: [@PatientMusafir1](https://twitter.com/PatientMusafir1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ishimwe-joseph-patient-0537b4155/)
 
