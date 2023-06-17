@@ -217,6 +217,7 @@
     display: grid;
     border-top-left-radius: 0%;
     border-top-right-radius: 0%;
+    margin-left: 31%;
   }
 
   .button {
@@ -808,7 +809,7 @@
     font-size: 20px;
     margin: 8%;
     margin-top: -1%;
-    color: #172b4d;
+    color: #42526E;
     line-height: 1.6;
   }
 
