@@ -4,7 +4,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
-@media only screen and (max-device-width: 375px) {
   div#wrapper {
     width: 400px;
   }
@@ -551,7 +550,6 @@
   .last-name {
     display: none;
   }
-}
 
 /* GRID DESKTOP VERSION =================================================================== */
 
