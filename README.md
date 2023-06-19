@@ -4,12 +4,12 @@
 
  <!-- LOGO -->
 
-  <img src="img/WazaCode Logo.png" alt="logo" width="auto"  height="auto" />
+  <img src="img/WazaCode Logo.png" alt="logo" width="200"  height="55" />
   <br/>
 
 <!-- MAIN HEADING -->
 
-  <h3><b>My Portfolio</b></h3>
+  <h3><b>My Portfolio Mobile and Desktop Version</b></h3>
 
 </div>
 
@@ -39,7 +39,7 @@
 <!-- INTRO -->
 # 📖 Portfolio <a name="about-project"></a>
 
-> Here is a Portfolio project showcasing all my Abilities, Skills and Achievements.it has many sections (Home, About Us, Work)
+> Here is a Portfolio project showcasing all my Abilities, Skills and Achievements.it has many sections (Home, About Us, Work), it has both desktop and mobile version
 
 ## 🛠 Built With <a name="built-with"></a>
 1. HTML
@@ -47,7 +47,7 @@
 3. Linters
 ### Tech Stack <a name="tech-stack"></a>
 
-> Planning to update it soon,
+> Desktop version almost finished,
 
 <details>
   <summary>Client</summary>
@@ -65,6 +65,8 @@
 > - Added Linters
 > - Added HTML
 > - Added CSS
+> - Added form 
+> - Added Multiple image background
 > - Added Nav
 > - Added Toolbar
 > - Added Image Background
@@ -164,7 +166,7 @@ Contributions, issues, and feature requests are welcome!
 
 - **How were the Linters utilised?**
 
-  - The Linters were utilised with the help of resources provided by [@microverseinc](https://github.com/microverseinc).
+  - The Linters were used with the help of resources provided by [@microverseinc](https://github.com/microverseinc).
 
 - **What new features should be expected in the next release of the project?**
 
