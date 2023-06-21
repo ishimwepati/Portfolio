@@ -584,8 +584,11 @@
     font-size: 40px;
   }
 
-  .upper_word br {
-    display: none;
+  .upper_word span {
+    color: #36b37e;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 40px;
   }
 
   .down_word {
