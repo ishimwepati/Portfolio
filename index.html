@@ -5,28 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>WazaCode | Home - Portfolio</title>
+    <title>WazaCode | Portfolio</title>
+    
 </head>
 <body>
-    
-    <section class="first_section">
+    <section class="first_section" id="first_section">
         <header>
+            <!-- 
             <nav class="menu_icon">
-                    <nav>
-                        <a href="#menu" class="box-shadow-menu"></a>
-                        <nav class="menu">
-                            <ul>
-                                <li class="grid-portfolio">Portfolio</li>
-                                <li class="grid-about">About</li>
-                                <li class="grid-contact">Contact</li>
+                        <a href="#work" class="logo">Logo</a>
+                        <nav>
+                            <ul class="menu">
+                                <li class="grid-portfolio nav-item">
+                                    <a href="#" class="nav-link" style="text-decoration:none">Portfolio</a>
+                                </li>
+                                <li class="grid-about nav-item">
+                                    <a href="#" class="nav-link" style="text-decoration:none">About</a>
+                                </li>
+                                <li class="grid-contact nav-item">
+                                    <a href="#" class="nav-link" style="text-decoration:none">Contact</a>
+                                </li>
                             </ul>
                         </nav>
-                    </nav>
-            </nav>
+                        <a href="#menu" class="hamburger"></a>
+             </nav>
+             -->
+             <nav class="navbar">
+                <a href="#first_section" class="nav-branding"><img src="img/WazaCode Logo.png" width="40%" height="12%" alt="WazaCode Logo"></a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#work" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact-us" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+             </nav>
         </header>   
-    
+
         <section class="main_section">
-            <section class="home_section">
+            <section class="home_section" id="home_section">
                 
                 <h1 class="upper_word"><br>Hey there.I’m Ishimwe.<br>
                  <span>I’m a software developer</span></h1>
@@ -52,7 +78,7 @@
             <button class="disable_button"><img src="icon/Disabled.png" alt="Disabled button"></button>
         </section>
     </section>
-    <section class="work">
+    <section class="work" id="work">
         <h2 class="upper_word"><br>My Recent <br> Works</h2>
         <img src="icon/IndicatorIndi.png" alt="Indicator button"  class="IndicatorIndi">
 
@@ -173,7 +199,7 @@
                         </div>
                 </div>                    
     </section>
-    <section class="about">
+    <section class="about" id="about">
             <div class="grid-container-about">
                 <h2 class="upper_word"><br>About me</h2>
                 <div class="about_text"> 
@@ -272,5 +298,6 @@
                     <br>
                 </ul>
             </section>
+        <script src="script.js"></script>
     </body>
 </html>
