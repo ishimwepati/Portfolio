@@ -74,7 +74,7 @@
     top: 40px;
     flex-direction: column;
     background-color: #fff;
-    width: 50%;
+    width: 100%;
     transition: 0.3s;
     display: flex;
     justify-content: space-between;
