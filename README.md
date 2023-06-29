@@ -45,6 +45,7 @@
 1. HTML
 2. CSS
 3. Linters
+4. JavaScript
 ### Tech Stack <a name="tech-stack"></a>
 
 > Desktop version almost finished,
@@ -55,6 +56,7 @@
     <li><a href="https://reactjs.org/">HTML</a></li>
     <li><a href="https://reactjs.org/">CSS</a></li>
     <li><a href="https://reactjs.org/">Linters</a></li>
+    <li><a href="https://reactjs.org/">Javascript</a></li>
   </ul>
 </details>
 
@@ -70,6 +72,7 @@
 > - Added Nav
 > - Added Toolbar
 > - Added Image Background
+> - Javascript has been added
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

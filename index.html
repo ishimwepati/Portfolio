@@ -5,30 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>WazaCode | Home - Portfolio</title>
+    <title>WazaCode | Portfolio</title>
+    
 </head>
 <body>
-    
-    <section class="first_section">
+    <section class="firstsection" id="first_section">
         <header>
-            <nav class="menu_icon">
-                    <nav>
-                        <a href="#menu" class="box-shadow-menu"></a>
-                        <nav class="menu">
-                            <ul>
-                                <li class="grid-portfolio">Portfolio</li>
-                                <li class="grid-about">About</li>
-                                <li class="grid-contact">Contact</li>
-                            </ul>
-                        </nav>
-                    </nav>
-            </nav>
+             <nav class="navbar">
+                <a href="#first_section" class="nav-branding"><img src="img/WazaCode Logo.png" width="40%" height="12%" alt="WazaCode Logo"></a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#work" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact-us" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+             </nav>
         </header>   
-    
-        <section class="main_section">
-            <section class="home_section">
+
+        <section class="mainsection">
+            <section class="homesection" id="homesection">
                 
-                <h1 class="upper_word"><br>Hey there.I’m Ishimwe.<br>
+                <h1 class="upperword">Hey there,I’m Ishimwe<br>
                  <span>I’m a software developer</span></h1>
                 
                 <p> I can help you build a product, 
@@ -36,10 +43,11 @@
                     If you like what you see and have a project you need coded,<br> 
                     don’t hesitate to contact me.
                 </p>
+                 
                     
             </section>
-            <section class="social_links">
-                <ul class="social_links">
+            <section class="sociallinks">
+                <ul class="sociallinks">
                     <li>  <a href="https://twitter.com/PatientMusafir1"><img src="icon/twitter.png" alt="Twitter Logo with a link to twitter"  class="icon"> </a></li>
                     <li>  <a  href="https://www.linkedin.com/in/ishimwe-joseph-patient-0537b4155/"><img src="icon/Linkedin icon.png" alt="Linkedin Logo with a link to Linkedin"  class="icon"> </a></li>
                     <li> <a  href="#">  <img src="icon/medium.png" alt="Medium Logo with a link to Medium"  class="icon">  </a></li>
@@ -49,12 +57,12 @@
                 </ul>
                 <br>
             </section>
-            <button class="disable_button"><img src="icon/Disabled.png" alt="Disabled button"></button>
+            <button class="disablebutton"><img src="icon/Disabled.png" alt="Disabled button"></button>
         </section>
     </section>
-    <section class="work">
-        <h2 class="upper_word"><br>My Recent <br> Works</h2>
-        <img src="icon/IndicatorIndi.png" alt="Indicator button"  class="IndicatorIndi">
+    <section class="work" id="work">
+        <h2 class="upperword"><br>My Recent <br> Works</h2>
+        <img src="icon/Indicatorindi.png" alt="Indicator button"  class="indi">
 
                 <div class="bigflex">
                         <div class="bigflexitem">
@@ -173,10 +181,10 @@
                         </div>
                 </div>                    
     </section>
-    <section class="about">
+    <section class="about" id="about">
             <div class="grid-container-about">
-                <h2 class="upper_word"><br>About me</h2>
-                <div class="about_text"> 
+                <h2 class="upperword"><br>About me</h2>
+                <div class="abouttext"> 
                     <p> I can help you build a product, 
                         feature or website Look through some of my work and <br> experience! 
                         If you like what you see and have a project you need coded,<br> 
@@ -205,19 +213,19 @@
                         </ul>
                     </div>
                 
-                    <div class="grid-container-ab Frameworks">
+                    <div class="grid-container-ab frame">
                         <div class="grid-language">
                             <img src="icon/icon-frameworks.svg" alt="Framework Icon">
                             
                         </div>
-                        <div class="title"><h3>Frameworks</h3></div>
+                        <div class="title"><h3>FrameWorks</h3></div>
                         <ul class="grid-about flex-container-about">
                             <li class="flex-about flex-aboutjs"><h4>React.js</h4> </li>
                             <li class="flex-about flex-about2"><h4>Ruby on Rails</h4></li>
                             <li class="flex-about flex-about3"><h4>RSpec</li>
                         </ul>
                         <ul class="grid-about flex-container-about">
-                            <li class="flex-about flex-aboutCapy"><h4>Capybara</h4> </li>
+                            <li class="flex-about capy"><h4>Capybara</h4> </li>
                             <li class="flex-about flex-about6"><h4>Selenium</h4></li>
                         </ul>
                     </div>
@@ -263,7 +271,7 @@
         </section>
             <section id="contact-links">
                 <hr>
-                <ul class="social_links">
+                <ul class="sociallinks">
                     <li>  <a href="https://twitter.com/PatientMusafir1"><img src="icon/twitter.png" alt="Twitter Logo with a link to twitter"  class="icon"> </a></li>
                     <li>  <a  href="https://www.linkedin.com/in/ishimwe-joseph-patient-0537b4155/"><img src="icon/Linkedin icon.png" alt="Linkedin Logo with a link to Linkedin"  class="icon"> </a></li>
                     <li> <a  href="#">  <img src="icon/medium.png" alt="Medium Logo with a link to Medium"   class="icon">  </a></li>
@@ -272,5 +280,6 @@
                     <br>
                 </ul>
             </section>
+        <script src="script.js"></script>
     </body>
 </html>
