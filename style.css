@@ -53,7 +53,7 @@
     height: 3px;
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
-    background-color:#67798E;
+    background-color: #67798e;
   }
 
   .hamburger.active .bar:nth-child(2) {
@@ -70,7 +70,7 @@
 
   .nav-menu {
     position: fixed;
-    left: -110%; 
+    left: -110%;
     top: -20px;
     flex-direction: column;
     background-color: #fff;
@@ -689,7 +689,7 @@
     font-family: Inter, sans-serif;
     font-size: 40px;
   }
-  
+
   .homesection p {
     text-align: center;
     font-family: Inter, sans-serif;
@@ -713,7 +713,6 @@
     align-items: center;
     color: #505f79;
     margin-top: 2%;
-
   }
 
   .icon {
