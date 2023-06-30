@@ -323,5 +323,3 @@ function projectDetails(data) {
 
   popModal.style.display = 'block';
 }
-projectDetails(7);
-closeModal();
