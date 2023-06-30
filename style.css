@@ -4,17 +4,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
-.error-message{
+.error-message {
   color: red;
   font-weight: bold;
   display: none;
 }
-@media only screen and (max-width: 767px) {
 
+@media only screen and (max-width: 767px) {
   body li {
     display: inline-block;
   }
-  
+
   .nav-menu li {
     list-style: none;
   }
@@ -599,7 +599,6 @@
   .last-name {
     display: none;
   }
-  
 }
 
 /* GRID DESKTOP VERSION =================================================================== */
@@ -1271,5 +1270,4 @@
     color: #dfe1e6;
     margin: 0;
   }
-
 }

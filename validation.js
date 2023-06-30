@@ -4,7 +4,7 @@ const errorMessage = form.querySelector('#error-message');
 
 form.addEventListener('submit', (event) => {
   if (emailInput.value !== emailInput.value.toLowerCase()) {
-    errorMessage.style.display="block";
+    errorMessage.style.display = 'block';
     event.preventDefault();
   }
 });
