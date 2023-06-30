@@ -15,9 +15,8 @@ contactForm.addEventListener('submit', () => {
       email.value = data.storeEmail;
       message.value = data.storeMessage;
     }
-  };
-  
-//Preserve data from the Form
+  };  
+
 
 window.onload = function dataLoad() {
     const data = JSON.parse(localStorage.getItem('storeData'));
