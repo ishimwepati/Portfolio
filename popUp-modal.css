@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+}
+
+#popUp-modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  padding: 10px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #c1c7d0b0;
+  box-sizing: border-box;
+}
+
+.content-modal {
+  margin: 5px auto;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid #ebecf0;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+}
+
+.close-btn {
+  float: right;
+  color: rgb(80, 77, 77);
+  font-size: 32px;
+  cursor: pointer;
+  position: absolute;
+  top: 45px;
+  right: 60px;
+}
+
+.desktop-img {
+  width: 100%;
+}
+
+.modal-body {
+  padding: 0;
+}
+
+.title-container #title {
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 600;
+  color: #172b4d;
+  margin: 0;
+  text-align: left;
+}
+
+#tech-desktop {
+  display: none;
+}
+
+#tech-mobile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+#tech-mobile li {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  color: #3a4a42;
+  background: #ebf0ee;
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+
+#projectDescription {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #344563;
+  text-align: justify;
+  margin: 0;
+}
+
+.modal-footer {
+  padding: 0;
+  color: white;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.modal-footer .show-project-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background: #36b37f;
+  border-radius: 5px;
+  padding: 7px 11px;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.modal-footer-desktop {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .content-modal {
+    margin: 20px auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .close-btn {
+    float: right;
+    color: #67798e;
+    cursor: pointer;
+    position: static;
+    font-weight: 400;
+    top: 0;
+    right: 0;
+    background: #ebecf0;
+    padding: 0 8px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+  }
+
+  .desktop-img {
+    width: 100%;
+    height: 550px;
+  }
+
+  .modal-body {
+    padding: 10px;
+  }
+
+  .title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .title-container #title {
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 700;
+    color: #172b4d;
+    width: 600px;
+    margin: 0;
+  }
+
+  #tech-desktop {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+  }
+
+  #tech-desktop li {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    color: #344563;
+    background: #ebecf0;
+    border-radius: 8px;
+    padding: 8px 12px;
+  }
+
+  #tech-mobile {
+    display: none;
+  }
+
+  #projectDescription {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #344563;
+    text-align: justify;
+  }
+
+  .modal-footer {
+    display: none;
+  }
+
+  .modal-footer-desktop {
+    padding: 0;
+    color: white;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+  }
+
+  .modal-footer-desktop .show-project-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background: #36b37f;
+    border-radius: 5px;
+    padding: 12px;
+    border: none;
+    width: 141px;
+    height: 48px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+  }
+}
