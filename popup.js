@@ -321,5 +321,7 @@ function projectDetails(data) {
               </div>
               `;
 
-  popModal.style.display = 'block';
+  popModal.style.display = 'block';    
 }
+projectDetails(7);
+closeModal();
