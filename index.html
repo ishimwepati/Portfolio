@@ -148,20 +148,21 @@
                         so if you'd like to chat please get in touch.
                     </h3>
                 </div>
-                <div class="form">
-                    <form action="https://formspree.io/f/xyyargbq"  method="POST" class="flex-contact">
+                <div class="form" >
+                    <form action="https://formspree.io/f/xyyargbq" method="post"  id="form" class="flex-contact">
                         <div class="flexname-desktop">
-                            <input type="text" name="name" placeholder="First name" class="flex-name" maxLength="30" required>
-                            <input type="text" name="lname" placeholder="Last name" class="last-name" maxLength="30" required>
-                         </div>
-                        <input type="email" name="email" placeholder="Email address" class="flex-email" required>
-                        <textarea name="message" placeholder="Hey I’d like to connect to..." class="flex-message" maxLength="500" required></textarea>
-                        <button type="submit" class="flex-button">Get in touch</button>
+                            <input type="text" name="name" id="name" placeholder="First name" class="flex-name" maxLength="30" required>
+                            <input type="text" name="lname" id="lname" placeholder="Last name" class="last-name" maxLength="30" >
+                        </div>
+                        <input type="email" name="email" id="email" placeholder="Email address" class="flex-email" required>
+                        <div id="error-message" class="error-message">Please write your E-mail adress in LowCase</div>
+                        <textarea type="text" name="message" placeholder="Hey I’d like to connect to..." class="flex-message" maxLength="500" required></textarea>
+                        <button type="submit" id="submit" class="flex-button">Get in touch</button>
                     </form>
                 </div>
             <p>wazacode@gmail.com</p>
-            
-        </section>
+    </section>
+
             <section id="contact-links">
                 <hr>
                 <ul class="sociallinks">
@@ -175,5 +176,7 @@
             </section>
         <script src="script.js"></script>
         <script src="popup.js"></script>
+        <script src="validation.js"></script>
+       
     </body>
 </html>
