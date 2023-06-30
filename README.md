@@ -73,6 +73,7 @@
 > - Added Toolbar
 > - Added Image Background
 > - Javascript has been added
+> - Popup Window added
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
