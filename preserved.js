@@ -1,4 +1,3 @@
-
 const NameInfo = document.getElementById('name');
 const emailInfo = document.getElementById('email');
 const messageInfo = document.getElementById('message');
