@@ -790,9 +790,12 @@
   }
 
   .one {
-    background-color: #ebf0ee;
+    background-color: #225a44;
   }
-
+  .one img{
+    width: 100%;
+    height: 100%;
+  }
   .main {
     background-color: #fff;
     border-bottom-left-radius: 0;

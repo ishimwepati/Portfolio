@@ -11,13 +11,15 @@ section.innerHTML += `
              
                 <div class="bigflexitem">
                     <div class="grid-container">
-                        <div class="grid-item one"></div>
+                        <div class="grid-item one">
+                          <img src="img/img-projects/conference1.png">
+                        </div>
                         <div class="grid-item main">
-                                <h3>Multi-Post Stories <br>Gain+Glory</h3>
+                                <h3>Conference Web App <br>Summit</h3>
                         </div>
                         
                         <ul class="grid-item flex-container">
-                            <li class="flex-item flex-item1"><h4>Ruby on Rails</h4> </li>
+                           
                             <li class="flex-item flex-item2"><h4>CSS</h4></li>
                             <li class="flex-item flex-item3"><h4>JavaScrit </li>
                             <li class="flex-item flex-item4"><h4>HMTL</h4></li>
@@ -30,13 +32,15 @@ section.innerHTML += `
                 </div>
                 <div class="bigflexitem">
                     <div class="grid-container">
-                        <div class="grid-item one"></div>
+                        <div class="grid-item one">
+                          <img src="img/img-projects/AwesomeBook1.png">
+                        </div>
                         <div class="grid-item main">
-                                <h3>Multi-Post Stories <br>Gain+Glory</h3>
+                                <h3>Awesome Books Store <br>Web App</h3>
                         </div>
                         
                         <ul class="grid-item flex-container">
-                            <li class="flex-item flex-item1"><h4>Ruby on Rails</h4> </li>
+                            
                             <li class="flex-item flex-item2"><h4>CSS</h4></li>
                             <li class="flex-item flex-item3"><h4>JavaScrit </li>
                             <li class="flex-item flex-item4"><h4>HMTL</h4></li>
@@ -49,13 +53,15 @@ section.innerHTML += `
                 </div>
                 <div class="bigflexitem">
                     <div class="grid-container">
-                        <div class="grid-item one"></div>
+                        <div class="grid-item one">
+                           <img src="img/img-projects/TodoList1.png">
+                        </div>
                         <div class="grid-item main">
-                                <h3>Multi-Post Stories <br>Gain+Glory</h3>
+                                <h3>To do List<br>Project</h3>
                         </div>
                         
                         <ul class="grid-item flex-container">
-                            <li class="flex-item flex-item1"><h4>Ruby on Rails</h4> </li>
+                        
                             <li class="flex-item flex-item2"><h4>CSS</h4></li>
                             <li class="flex-item flex-item3"><h4>JavaScrit </li>
                             <li class="flex-item flex-item4"><h4>HMTL</h4></li>
@@ -133,7 +139,7 @@ const projects = [
     projectName: 'Bootstrap',
     projectDescription:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageDesktop: 'img/projects/projectone-img.png',
+    imageDesktop: 'img/img-projects/conference1.png',
     gitIcon: 'img/icon/Vector.svg',
     liveIcon: 'img/icon/see-live-icon.svg',
     techMobile: ['Ruby on rails', 'css', 'JavScript'],
@@ -145,15 +151,15 @@ const projects = [
       'Terminal',
       'Codepen',
     ],
-    sourceLink: 'https://github.com/ishimwepati/Portfolio',
-    liveLink: 'https://github.com/ishimwepati/Portfolio/',
+    sourceLink: 'https://github.com/ishimwepati/Conference-Page',
+    liveLink: 'https://ishimwepati.github.io/Conference-Page/',
   },
   {
     projectId: 2,
     projectName: 'Keeping track of hundreds of components',
     projectDescription:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageDesktop: 'img/projects/projectone-img.png',
+    imageDesktop: 'img/img-projects/AwesomeBook1.png',
     gitIcon: 'img/icon/Vector.svg',
     liveIcon: 'img/icon/see-live-icon.svg',
     techMobile: ['Ruby on rails', 'css', 'JavScript'],
@@ -165,15 +171,15 @@ const projects = [
       'Terminal',
       'Codepen',
     ],
-    sourceLink: 'https://github.com/ishimwepati/Portfolio',
-    liveLink: 'https://github.com/ishimwepati/Portfolio/',
+    sourceLink: 'https://github.com/ishimwepati/Awesome-books-with-ES6',
+    liveLink: 'https://ishimwepati.github.io/Awesome-books-with-ES6/#',
   },
   {
     projectId: 3,
     projectName: 'Keeping track of hundreds of components',
     projectDescription:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageDesktop: 'img/projects/projectone-img.png',
+    imageDesktop: 'img/img-projects/TodoList1.png',
     gitIcon: 'img/icon/Vector.svg',
     liveIcon: 'img/icon/see-live-icon.svg',
     techMobile: ['Ruby on rails', 'css', 'JavScript'],
@@ -185,8 +191,8 @@ const projects = [
       'Terminal',
       'Codepen',
     ],
-    sourceLink: 'https://github.com/ishimwepati/Portfolio',
-    liveLink: 'https://github.com/ishimwepati/Portfolio/',
+    sourceLink: 'https://github.com/ishimwepati/To-Do-list',
+    liveLink: 'https://ishimwepati.github.io/To-Do-list/dist/',
   },
   {
     projectId: 4,
