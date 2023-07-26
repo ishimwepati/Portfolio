@@ -65,6 +65,7 @@
 ### Key Features <a name="key-features"></a>
 
 > - Added Linters
+> - Project added
 > - Added HTML
 > - Added CSS
 > - Added form 
